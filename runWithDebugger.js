@@ -11,15 +11,15 @@ function runWithDebugger(callback, optionalArgs) {
 
 // Example function 
 function sayHi(arr) {
-	if (Array.isArray(arr)) {
-		var str = '';	
-		arr.forEach(function(elem) {
-			str += (elem + ' ');
-		});
-	} else {
-		str = arr;
-	}
-	console.log(str);
+  if (Array.isArray(arr)) {
+    var str = '';	
+    arr.forEach(function(elem) {
+       str += (elem + ' ');
+    });
+  } else {
+     str = arr;
+  }
+  console.log(str);
 }
 
 // Test
